@@ -9,6 +9,7 @@
     ],
     "description": "Get DOM using headless Chromium.",
     "require": {
+        "php": "^7.1",
         "symfony/process": "^4.3"
     },
     "require-dev": {
@@ -20,5 +21,8 @@
             "PhpChromium\\": "src/",
             "PhpChromiumTest\\": "tests/"
         }
-    }
+    },
+    "license": [
+        "MIT"
+    ]
 }
