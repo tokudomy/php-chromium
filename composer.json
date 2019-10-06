@@ -1,0 +1,24 @@
+{
+    "name": "tokudomy/php-chromium",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tokudomy",
+            "email": "mbk5031@gmail.com"
+        }
+    ],
+    "description": "Get DOM using headless Chromium.",
+    "require": {
+        "symfony/process": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpChromium\\": "src/",
+            "PhpChromiumTest\\": "tests/"
+        }
+    }
+}
